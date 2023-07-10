@@ -22,7 +22,7 @@ unsigned long long int power(int a, int x, int n) {
   }
   return exp;
 }
-bool is_prime(uint64_t n) {
+bool is_prime(unsigned long long n) {
   int i = 1;
   int k = 2;
   if (n <= 1 || n == 4) {
